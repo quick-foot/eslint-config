@@ -1,6 +1,6 @@
 {
     "name": "@quick-foot/eslint-config",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Quick and easy eslint config for Angular projects",
     "repository": {
         "type": "git",
