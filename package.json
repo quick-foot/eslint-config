@@ -1,7 +1,7 @@
 {
     "name": "@quick-foot/eslint-config",
     "version": "0.0.2",
-    "description": "Quick and easy eslint config for typescript",
+    "description": "Quick and easy eslint config for Angular projects",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/quick-foot/eslint-config.git"
@@ -19,11 +19,12 @@
         "config",
         "eslintconfig",
         "typescript",
-        "quick-foot"
+        "quick-foot",
+        "angular"
     ],
     "author": "Christopher Kiss",
     "license": "MIT",
-    "devDependencies": {
+    "dependencies": {
         "@typescript-eslint/eslint-plugin": "1.4.1",
         "@typescript-eslint/parser": "1.4.1",
         "eslint": "5.14.1",
@@ -32,6 +33,7 @@
         "typescript": "3.3.3333"
     },
     "peerDependencies": {
-        "eslint": ">=5.0.0"
+        "eslint": ">=5.0.0",
+        "typescript": ">=3.2.1 <3.4.0"
     }
 }
