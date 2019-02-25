@@ -78,7 +78,6 @@ module.exports = {
         'no-multiple-empty-lines': 'error',
         'no-trailing-spaces': 'error',
         'no-duplicate-imports': 'error',
-        'no-useless-constructor': 'error',
         'no-useless-rename': 'error',
         'no-restricted-imports': ['error', 'rxjs/Rx'],
         'require-atomic-updates': 'error',
