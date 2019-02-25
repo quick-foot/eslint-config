@@ -10,11 +10,16 @@ module.exports = {
         '@typescript-eslint/ban-types': 'off',
         '@typescript-eslint/ban-ts-ignore': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
+        '@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/no-parameter-properties': 'off',
         '@typescript-eslint/generic-type-naming': 'error',
         '@typescript-eslint/member-ordering': 'error',
-        '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
-        '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: true }],
+        '@typescript-eslint/no-explicit-any': 'error',
         '@typescript-eslint/no-for-in-array': 'error',
+        '@typescript-eslint/no-useless-constructor': 'error',
+        '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: true }],
+        '@typescript-eslint/no-this-alias': ['error', { allowDestructuring: true }],
         '@typescript-eslint/no-unused-vars': [
             'error',
             {
@@ -24,10 +29,7 @@ module.exports = {
                 ignoreRestSiblings: true
             }
         ],
-        '@typescript-eslint/no-non-null-assertion': 'off',
-        '@typescript-eslint/no-parameter-properties': 'off',
-        '@typescript-eslint/no-this-alias': ['error', { allowDestructuring: true }],
-        '@typescript-eslint/no-useless-constructor': 'error',
+
         curly: 'error',
         indent: 'error',
         eqeqeq: 'error',
