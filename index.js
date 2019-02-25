@@ -82,7 +82,6 @@ module.exports = {
         'no-useless-rename': 'error',
         'no-restricted-imports': ['error', 'rxjs/Rx'],
         'require-atomic-updates': 'error',
-        'require-await': 'error',
         'prefer-object-spread': 'error',
         'prefer-const': 'error',
         'prefer-spread': 'error',
