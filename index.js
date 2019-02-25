@@ -1,6 +1,6 @@
 module.exports = {
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint'],
+    plugins: ['@typescript-eslint', 'sort-imports-es6-autofix'],
     extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier', 'prettier/@typescript-eslint'],
     parserOptions: {
         sourceType: 'module',
@@ -86,6 +86,6 @@ module.exports = {
         'prefer-object-spread': 'error',
         'prefer-const': 'error',
         'prefer-spread': 'error',
-        'sort-imports': 'error'
+        'sort-imports-es6-autofix/sort-imports-es6': 'error'
     }
 };
