@@ -15,7 +15,15 @@ module.exports = {
         '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
         '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: true }],
         '@typescript-eslint/no-for-in-array': 'error',
-        '@typescript-eslint/no-unused-vars': 'error',
+        '@typescript-eslint/no-unused-vars': [
+            'error',
+            {
+                vars: 'all',
+                args: 'after-used',
+                argsIgnorePattern: '^_',
+                ignoreRestSiblings: true
+            }
+        ],
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-parameter-properties': 'off',
         '@typescript-eslint/no-this-alias': ['error', { allowDestructuring: true }],
