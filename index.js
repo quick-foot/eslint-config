@@ -38,6 +38,7 @@ module.exports = {
                     '^import |^export {(.*?)}|^[\\w\\W]{0,120}(\\/\\/|\\/\\*| \\* )|\'[^\']+\'|"[^"]+"|`[^`]+`'
             }
         ],
+        'no-undef': 'off',
         'no-alert': 'error',
         'no-caller': 'error',
         'no-debugger': 'error',
