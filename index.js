@@ -14,7 +14,6 @@ module.exports = {
         '@typescript-eslint/member-ordering': 'error',
         '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
         '@typescript-eslint/no-empty-interface': ['error', { allowSingleExtends: true }],
-        '@typescript-eslint/no-extraneous-class': 'error',
         '@typescript-eslint/no-for-in-array': 'error',
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-parameter-properties': 'off',
