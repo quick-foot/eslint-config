@@ -13,6 +13,7 @@ module.exports = {
         '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-parameter-properties': 'off',
+        '@typescript-eslint/no-object-literal-type-assertion': 'off',
         '@typescript-eslint/generic-type-naming': 'error',
         '@typescript-eslint/member-ordering': 'error',
         '@typescript-eslint/no-explicit-any': 'error',
