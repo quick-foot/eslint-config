@@ -69,7 +69,6 @@ module.exports = {
         'no-useless-return': 'error',
         'no-unused-expressions': 'error',
         'no-unneeded-ternary': 'error',
-        'no-undefined': 'error',
         'no-use-before-define': 'error',
         'no-misleading-character-class': 'error',
         'no-template-curly-in-string': 'error',
