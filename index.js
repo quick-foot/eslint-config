@@ -52,6 +52,7 @@ module.exports = {
         ],
         'no-dupe-class-members': 'off',
         'no-undef': 'off',
+        'no-console': 'off',
         'no-alert': 'error',
         'no-caller': 'error',
         'no-debugger': 'error',
